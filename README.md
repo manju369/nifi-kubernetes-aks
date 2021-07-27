@@ -6,7 +6,7 @@ Nifi Runs on port 9080 here , also binds with all network interfaces ..i.e 0.0.0
 
 
 To test:
-Spin-Up a debugging container
+spin-up a debugging container
 
 kubectl run -it --rm --restart=Never debug-container --image=ubuntu bash
 
